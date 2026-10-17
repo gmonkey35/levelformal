@@ -33,7 +33,7 @@
 
 | STM32 引脚 | 连接 |
 |---|---|
-| PB10 (I2C2_SCL) / PB11 (I2C2_SDA) | MPU6050 与 OLED 共用一条 I2C 总线，400kHz，需接 4.7kΩ 上拉 |
+| PB10 (I2C2_SCL) / PB11 (I2C2_SDA) | MPU6050 与 OLED 共用一条 I2C 总线，400kHz。常见模块板载 4.7kΩ~10kΩ 上拉，直接插线即可；自制底板或模块无上拉时才需外接 4.7kΩ 到 3.3V |
 | PA2 (USART2_TX) / PA3 (USART2_RX) | USB-TTL 模块 TX/RX（交叉连接），GND 共地 |
 | PA6 / PA7 / PB0 | 绿 / 红 / 蓝 LED（串限流电阻） |
 | 3.3V / GND | MPU6050、OLED、USB-TTL 共地 |
