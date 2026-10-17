@@ -1,0 +1,22 @@
+# ===== Keil MDK 构建产物 / 本地配置 =====
+MDK-ARM/levelformal/*
+!MDK-ARM/levelformal/levelformal.sct
+MDK-ARM/*.uvguix.*
+MDK-ARM/startup_stm32f103xb.lst
+MDK-ARM/*.bak-dsh
+*.bak-dsh
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+
+# ===== EIDE (VSCode 插件) =====
+MDK-ARM/build/
+MDK-ARM/.cmsis/
+MDK-ARM/.eide/log/
+MDK-ARM/.eide/*.usr.ctx.json
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.log
+Thumbs.db
+desktop.ini
